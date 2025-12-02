@@ -6,8 +6,8 @@ workflows:
           - app_store_credentials # <-- (APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY)
           - certificate_credentials # <-- (CERTIFICATE_PRIVATE_KEY)
         vars:
-          XCODE_PROJECT: "Geometric Mini Games.xcodeproj"
-          XCODE_SCHEME: "Geometric Mini Games"
+          XCODE_PROJECT: "Geometric Mini Gamesv.xcodeproj"
+          XCODE_SCHEME: "Geometric Mini Gamesv"
           BUNDLE_ID: "com.geometricmini.game"
           APP_STORE_APPLE_ID: 6755963289
         xcode: latest
